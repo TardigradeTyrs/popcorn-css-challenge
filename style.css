@@ -1,3 +1,17 @@
+header {
+  background-color: #FFDBAA;
+}
+button {
+  background-color: #805215;
+  -webkit-text-fill-color: antiquewhite;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: larger;
+  position: relative;
+  bottom: 50px;
+  left: 800px;
+  min-height: auto;
+
+}
 /*COLORS:
 Header background - #FFDBAA
 button - #805215
