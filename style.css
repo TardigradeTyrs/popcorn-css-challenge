@@ -1,5 +1,9 @@
 header {
   background-color: #FFDBAA;
+  -webkit-text-fill-color: #553100;
+}
+body {
+  background-color: #D4A76A*;
 }
 button {
   background-color: #805215;
