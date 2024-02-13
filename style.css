@@ -37,7 +37,9 @@ button {
 }
 
 section {
+  box-shadow: 2px 2px 10px;
   position:relative;
+  align-items: center;
   display: inline-table;
   border: 0;
   margin-right: 10%;
@@ -48,8 +50,16 @@ section {
   background-color: #ffffff;
   text-align: center;
   p {text-align: left;}
+ }
+#flights {
+  float: left;
 }
-
+#group{
+  position: relative;
+}
+#discount{
+  float: right;
+}
 #about {
   margin-top: 10px;
   display: block;
