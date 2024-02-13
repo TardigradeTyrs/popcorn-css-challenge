@@ -9,51 +9,53 @@ header {
   background-color: #FFDBAA;
   -webkit-text-fill-color: #553100;
   border-bottom: 1px solid #000000;
-
-
+  h1 {
+    transform: translate(20px,10px);
+  }
 }
+
 body {
   background-color: #D4A76A;
   font-family: arial;
   font-weight:525;
-
 }
+
 button {
   background-color: #805215;
   -webkit-text-fill-color: antiquewhite;
   font-size: larger;
   min-height: 40px;
-
 }
+
 .navigation button{
   border: 0;
   box-shadow: none;
   text-transform: uppercase;
-  position: relative;
-  bottom: 50px;
-  left: 800px;
+  float: right;
+  margin-right: 10px;
+  transform: translate(-10px, -50px);
 }
+
 section {
   position:relative;
   display: inline-table;
   border: 0;
-  ;
   margin-right: 10%;
   margin-top: 110px;
   border: 1px solid #000000;
-  height: 25vh;
-  min-height: 200px;
+  height: 200px;
   width: 250px;
   background-color: #ffffff;
   text-align: center;
   p {text-align: left;}
-
-
 }
+
 #about {
+  margin-top: 10px;
   display: block;
   width: 90vw;
 }
+
 button.bodybutton {
 position: inherit;
 width: 98%;
